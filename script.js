@@ -46,8 +46,8 @@ const fullValidator = () => {
         box1.style.border = "1px solid rgba(241, 37, 37, 0.8)";
         name1.placeholder = '';
     }else if(lengthValidator(name1)==true){
-        err2.style.visibility = 'hidden';
-        errt2.style.display = 'none';
+        err1.style.visibility = 'hidden';
+        errt1.style.display = 'none';
         box1.style.border = '1px solid hsla(246, 25%, 77%, 60%)';
     }
 
@@ -57,8 +57,8 @@ const fullValidator = () => {
         box2.style.border = "1px solid rgba(241, 37, 37, 0.8)";
         lName.placeholder = ''
     }else if(lengthValidator(lName)==true){
-        err1.style.visibility = 'hidden';
-        errt1.style.display = 'none';
+        err2.style.visibility = 'hidden';
+        errt2.style.display = 'none';
         box2.style.border = '1px solid hsla(246, 25%, 77%, 60%)'
     }
 
